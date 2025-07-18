@@ -1,123 +1,145 @@
 <!-- markdownlint-disable MD033 MD041 -->
 <p align="center">
-  <img alt="LOGO" src="https://cdn.jsdelivr.net/gh/MaaAssistantArknights/design@main/logo/maa-logo_512x512.png" width="256" height="256" />
 </p>
 
 <div align="center">
 
-# MaaPracticeBoilerplate
+# Maa for ETERNAL TREE
 
 </div>
 
-本仓库为 [MaaFramework](https://github.com/MaaXYZ/MaaFramework) 所提供的项目模板，开发者可基于此模板直接创建自己的 MaaXXX 项目。
+MET由 [MaaFramework](https://github.com/MaaXYZ/MaaFramework) 驱动
 
-> **MaaFramework** 是基于图像识别技术、运用 [MAA](https://github.com/MaaAssistantArknights/MaaAssistantArknights) 开发经验去芜存菁、完全重写的新一代自动化黑盒测试框架。
-> 低代码的同时仍拥有高扩展性，旨在打造一款丰富、领先、且实用的开源库，助力开发者轻松编写出更好的黑盒测试程序，并推广普及。
+>MET可以自动刷本/完成每日/掉线重启,让你解放双手,放心挂机
 
-## 即刻开始
+## 声明
+- **本项目仅供学习交流使用，项目维护者对不当使用本项目而造成的后果不负任何责任。**
+- **MET 不会涉及任何对游戏客户端与服务器数据的直接读取、检测、分析、拦截和修改等操作，亦不会以任何方式修改任何游戏文件与游戏代码。**
+- **继 Maa for ETERNAL TREE项目后续的迭代更新
 
-- [📄 快速开始](https://github.com/MaaXYZ/MaaFramework/blob/main/docs/zh_cn/1.1-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.md)
-- [🎞️ 视频教程](https://www.bilibili.com/video/BV1yr421E7MW)
+MET功能:
 
-## 如何开发
+- 支持自动领取`神狱桃园乡`奖励
 
-0. 使用右上角 `Use this template` - `Create a new repository` 来基于本模板创建您自己的项目。
+- 支持自动领取`探索活动`奖励
 
-1. 克隆本项目及子项目（地址请修改为您基于本模板创建的新项目地址）。
+- 支持自动领取`每日物资`奖励
 
-    ```bash
-    git clone https://github.com/MaaXYZ/MaaPracticeBoilerplate.git
-    ```
+- 支持自动重复刷`多人战斗`关卡
 
-2. 下载 MaaFramework 的 [Release 包](https://github.com/MaaXYZ/MaaFramework/releases)，解压到 `deps` 文件夹中。
+- 支持自动重复刷`神眠之地`
 
-3. 下载通用资源子模块（MaaCommonAssets）
+- 支持自动扫荡`困难与极难主线`
 
-    ```bash
-    git submodule update --init --recursive
-    ```
+- 支持自动完成每日`行会签到及捐赠`
 
-    请注意，子模块仓库体积较大，请确认您已经成功下载，否则后续 OCR（文字识别）将报错并无识别结果。  
-    若 git 命令始终无法成功下载，也可尝试前往 [Mirror酱](https://mirrorchyan.com/zh/projects?rid=MaaCommonAssets&source=ghtempl-readme) 手动下载后解压到 `assets/MaaCommonAssets` 文件夹中，目录结构为 `assets/MaaCommonAssets/OCR`。
+- 支持自动完成每日`扫荡一次素材关卡`任务
 
-4. 配置资源文件。
+- 支持自动领取`每日任务`奖励
 
-    ```bash
-    python ./configure.py
-    ```
+- 支持`自动补体` `自动建房` `卡死重启` `掉线重连` `自动跨夜`
 
-    若报错 `File Not Found: XXXXXX`，则说明上一步 MaaCommonAssets 未正常下载，请再次检查！
+- 支持`自动炼金`--会循环炼金直到绝大部分材料都变成8级及以上奥秘
 
-5. 进行开发工作，按您的业务需求修改 `assets` 中的资源文件，请参考 [MaaFramework 相关文档](https://github.com/MaaXYZ/MaaFramework/blob/main/docs/zh_cn/1.1-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.md#%E8%B5%84%E6%BA%90%E5%87%86%E5%A4%87)。
+- 支持`图形化界面`(使用[MFAWPF](https://github.com/SweetSmellFox/MFAWPF)通用图形化界面)
 
-6. 完成开发后，上传您的代码并发布版本。
+**如果觉得好用,就点个star吧**
 
-    ```bash
-    # 配置 git 信息（仅第一次需要，后续不用再配置）
-    git config user.name "您的 GitHub 昵称"
-    git config user.email "您的 GitHub 邮箱"
-    
-    # 提交修改
-    git add .
-    git commit -m "XX 新功能"
-    git push origin HEAD -u
-    ```
+# 使用方法
+>[!NOTE]
+>**请将模拟器的分辨率设置为`1280x720`(可以将显示的窗口缩小)，DPI为`240`,并确保开启****`本地adb连接`**\
+>**将压缩包解压到文件夹后，双击`MET.exe`(图形化界面)或者`MaaPiCli.exe`(命令行界面)**\
+>**如果需要多开,请将脚本复制多份**\
+>如用mumu模拟器请关闭后台保活
 
-7. 发布您的版本
+# 下载地址
+[点此下载](https://github.com/caicai00001/Maa-for-ETERNAL-TREE/releases)(releases)
+>**请下载`Maa-for-ETERNAL-TREE`最新版本.zip**
 
-    需要**先**修改仓库设置 `Settings` - `Actions` - `General` - `Read and write permissions` - `Save`
+# 更新日志
 
-    ```bash
-    # CI 检测到 tag 会自动进行发版
-    git tag v1.0.0
-    git push origin v1.0.0
-    ```
+**7月18号更新v1.7.0**
+新增`神狱桃园乡`支持自动重复刷
+修复`每日物资`无法领取的问题
 
-8. 更多操作，请参考[个性化配置](./docs/zh_cn/个性化配置.md)（可选）
+**7月17日更新v1.6.1**
+新增`每日物资`自动领取
+新增`探索活动` 探索者之书和器灵讨伐书自动领取
 
-## 生态共建
+**7月15日更新v1.5.6**
+修复主线补药异常问题：修正了 v1.5.5 版本中主线补药准确率优化导致的逻辑异常，
+恢复稳定判定机制并优化触发时机，确保补药使用与角色状态精准匹配。
 
-MAA 正计划建设为一类项目，而非舟的单一软件。
+**7月14日更新v1.5.5**
+- 优化主线补药准确率
+- 调整雷电模拟器连接时候延时问题
 
-若您的项目依赖于 MaaFramework，我们欢迎您将它命名为 MaaXXX, MXA, MAX 等等。当然，这是许可而不是限制，您也可以自由选择其他与 MAA 无关的名字，完全取决于您自己的想法！
+**7月11日更新v1.5.4**
+- 修复由于一件炼成到选择炼金材料点击过快，无法准确进入材料选择界面
 
-同时，我们也非常欢迎您提出 PR，在 [社区项目列表](https://github.com/MaaXYZ/MaaFramework#%E7%A4%BE%E5%8C%BA%E9%A1%B9%E7%9B%AE) 中添加上您的项目！
+**7月4日更新v1.5.4**
+- 修复`自动炼金`概率出现选择炼金属性错误问题。
+- 更新原有ocr-v4到最新版本ocr-v5
+- 更新Maa组件包
 
-## FAQ
+**7月3日更新v1.5.3**
+- 修复`扫荡主线`只有大红瓶时无法正确使用的问题； 优化后支持单大红瓶和单小红瓶
 
-### 0. 我是第一次使用 git，这是什么？视频演示中那个黑框框命令行哪来的？
+**7月1日更新v1.5.2**
+- 修复`自动战斗`无法识别标记的问题
+- 修复`自动扫荡`无法正确识别问题
+- 优化`扫荡一次素材关卡`每日扫荡战备特级
 
-黑框框是 git bash，几乎任何现代软件的开发都离不开 git，建议先参考 [菜鸟教程](https://www.runoob.com/git/git-install-setup.html) 或搜索一些视频，学习完 git 后再来进行后续开发工作。
+**1月15日更新v1.4.11**
 
-### 1. 我是第一次使用 Python，在命令行输入 `python ./configure.py` 或 `python -m pip install MaaFW` 之后没有反应？没有报错，也没有提示成功，什么都没有
+- 自动多人战新增"火属性器灵镇魂战"
 
-Win10 或者 Win11 系统自带了一份 "Python"，但它其实只是一个安装器，是没法用的。  
-你需要做的是关闭它或者删除它的环境变量，然后自己去 Python 官网下载并安装一份 Python。  
-[参考方法](https://www.bilibili.com/read/cv24692025/)
+- 修复自动炼金不能选择"追索之勋章"的问题
 
-### 2. 使用 MaaDebugger 或 MaaPicli 时弹窗报错，应用程序错误：应用程序无法正常启动
+- 删除老版本任务以提高界面整洁度
 
-![缺少运行库](https://github.com/user-attachments/assets/942df84b-f47d-4bb5-98b5-ab5d44bc7c2a)
+**1月1日更新v1.4.10**
 
-一般是电脑缺少某些运行库，请安装一下 [vc_redist](https://aka.ms/vs/17/release/vc_redist.x64.exe) 。
+- 修复`自动推关`中途意外结束的问题
 
-### 3. 我在这个仓库里提了 Issue 很久没人回复
+- 更新图形化界面(现在支持自动更新)
 
-这里是《项目模板》仓库，它仅仅是一个模板，一般很少会修改，开发者也较少关注。  
-在此仓库请仅提问模板相关问题，其他问题最好前往对应的仓库提出，如果有 log，最好也带上它（`debug/maa.log` 文件）
+**12月25日更新v1.4.9**
 
-- MaaFW 本身及 MaaPiCli 的问题：[MaaFramework/issues](https://github.com/MaaXYZ/MaaFramework/issues)
-- MaaDebugger 的问题：[MaaDebugger/issues](https://github.com/MaaXYZ/MaaDebugger/issues)
-- 不知道算是哪里的、其他疑问等：[讨论区](https://github.com/MaaXYZ/MaaFramework/discussions)
+- 修复`扫荡素材关卡`又卡死的问题
 
-### 4. OCR 文字识别一直没有识别结果，报错 "Failed to load det or rec", "ocrer_ is null"
+- 修复`自动多人战`偶尔关卡识别错误的问题
 
-**请仔细阅读文档**，你无视了前面步骤的报错。我不想解释了，请再把本文档仔细阅读一遍！
+- 在`自动多人战`中添加暗属性`器灵镇魂战`
+
+- 修复`自动炼成`的bug
+
+**12月21日更新v1.4.7**
+
+- 修复`扫荡素材关卡`任务容易失败的问题
+
+- 修复`自动多人战`不能使用默认关卡和次数的问题
+
+- 修复`自动助战任务`在领取奖励时卡住的问题
+
+- 更新图形化界面
+
+**11月21日更新v1.4.6**
+
+- 自动多人战添加'器灵镇魂战'
+
+- 适配11月20日界面更新
+
+**11月7日更新v1.4.5**
+
+- 修复了`自动推图`在剧情关卡点击过快导致卡死以及在无法编队的战斗关卡卡死的问题
+
+- 修复了`自动推图`有时找不到未通关关卡的问题
+
+**欢迎大佬们提pr**
 
 ## 鸣谢
 
 本项目由 **[MaaFramework](https://github.com/MaaXYZ/MaaFramework)** 强力驱动！
 
-感谢以下开发者对本项目作出的贡献（下面链接改成你自己的项目地址）:
-
-[![Contributors](https://contrib.rocks/image?repo=MaaXYZ/MaaFramework&max=1000)](https://github.com/MaaXYZ/MaaFramework/graphs/contributors)
+感谢 **[MFAWPF](https://github.com/SweetSmellFox/MFAWPF)** 提供的GUI!

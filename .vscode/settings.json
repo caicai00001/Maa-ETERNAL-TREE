@@ -3,9 +3,7 @@
         {
             "fileMatch": [
                 "/assets/resource/**/*.json",
-                "/install/resource/**/*.json",
-                "/assets/resource/**/*.jsonc",
-                "/install/resource/**/*.jsonc"
+                "/install/resource/**/*.json"
             ],
             "url": "/deps/tools/pipeline.schema.json"
         },
@@ -23,9 +21,6 @@
             "url": "/deps/tools/interface_config.schema.json"
         }
     ],
-    "files.associations": {
-        "**/assets/**/*.json": "jsonc"
-    },
     "[json]": {
         "editor.formatOnSave": true,
         "editor.insertSpaces": true,
